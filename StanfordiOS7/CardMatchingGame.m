@@ -12,6 +12,7 @@
 @interface CardMatchingGame ()
 @property (nonatomic,assign,readwrite) NSInteger score;
 @property (nonatomic,strong) NSMutableArray <Card*>*cards;
+@property (nonatomic,strong) NSMutableArray < __kindof Card*> * chosenCards;
 @end
 
 @implementation CardMatchingGame
@@ -25,7 +26,7 @@
     self = [super init];
     if (self) {
         for (int i =0; i<count; i++) {
-                    Card *card =[deck drawRandomCard];
+            Card *card =[deck drawRandomCard];
             if (card) {
                 [self.cards addObject:card];
             }else{
@@ -40,16 +41,24 @@
     
     return  index<self.cards.count ? self.cards[index] :nil;
 }
+-(NSMutableArray<Card *> *)chosenCards{
+    if (!_chosenCards) {
+        _chosenCards =[[NSMutableArray alloc]init];
+    }
+    return _chosenCards;
+}
 -(void)chooseCardAtIndex:(NSInteger)index{
     Card *card = [self cardAtIndex:index];
     if (!card.isMatched) {
+        if (card.isChosen) {
         
-        if (!card.isChosen) {
-            for (Card *otherCard in self.cards) {
+            card.chosen =NO;
+        }else{
+            for (Card *otherCard  in self.cards) {
                 if (otherCard.isChosen && !otherCard.isMatched) {
-                    int matchScore =[card match:@[otherCard]];
+                    int matchScore = [card match:@[otherCard]];
                     if (matchScore) {
-                        self.score+=matchScore*4;
+                        self.score +=matchScore*4;
                         otherCard.matched = YES;
                         card.matched =YES;
                     }else{
@@ -57,15 +66,12 @@
                         otherCard.chosen =NO;
                     }
                     break;
-                    
                 }
             }
-            self.score -=1;
-            
         }
-        card.chosen = !card.chosen;
+        self.score-=1;
+        card.chosen  = YES;
     }
-    
     
     
 }

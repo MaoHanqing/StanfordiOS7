@@ -10,6 +10,8 @@
 @class Deck,Card;
 @interface CardMatchingGame : NSObject
 @property (nonatomic,assign,readonly) NSInteger score;
+
+@property (nonatomic,assign) NSInteger matchCards;
 - (instancetype)initWithCardCount:(NSInteger)count usingDeck:(Deck*)deck;
 - (void)chooseCardAtIndex:(NSInteger)index;
 - (Card*)cardAtIndex:(NSUInteger)index;

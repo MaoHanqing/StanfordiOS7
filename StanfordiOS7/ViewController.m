@@ -25,6 +25,7 @@
 -(CardMatchingGame *)game{
     if (!_game) {
         _game =[[CardMatchingGame alloc]initWithCardCount:self.cards.count usingDeck:[self creatDeck]];
+        _game.matchCards =2;
         
     }
     return _game;
@@ -41,6 +42,7 @@
 - (IBAction)touchButton:(UIButton *)sender {
     
     NSInteger chosenButtonIndex = [self.cards indexOfObject:sender];
+    
     [self.game chooseCardAtIndex:chosenButtonIndex];
     [self updateUI];
     
@@ -58,7 +60,7 @@
     return card.isChosen ? card.contents :@"";
 }
 - (UIImage*)backgroundImageForCard:(Card *)card{
-    return [UIImage imageNamed: card.isChosen ? @"" :@"Image"];
+    return [UIImage imageNamed: card.isChosen ? @"imageFont" :@"Image"];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

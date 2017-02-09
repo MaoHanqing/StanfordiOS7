@@ -26,16 +26,58 @@
     return _suit ? :@"?";
 }
 -(int)match:(NSArray *)otherCards{
-    int score = 0;
-    if ([otherCards count]==1) {
-        PlayingCard *otherCard = [otherCards firstObject];
-        if (otherCard.rank == self.rank) {
-            score = 4;
-        }else if ([otherCard.suit isEqualToString:self.suit]){
-            score = 1;
+    
+    
+        int score = 0;
+    
+    if (otherCards.count ==1) {
+        PlayingCard *otherCard =[otherCards firstObject];
+        if (otherCard.rank ==self.rank) {
+            score =4;
+            
+        }else if ([ otherCard.suit isEqualToString:self.suit]){
+            score =1;
         }
+        return score;
     }
+    
+    
+        int rankMatch = 0;
+        int suitMatch = 0;
+        for (PlayingCard *card in otherCards) {
+            if (self.rank == card.rank) {
+                rankMatch++;
+            }
+            if ([self.suit isEqualToString:card.suit]) {
+                suitMatch++;
+            }
+        }
+        if (rankMatch || suitMatch) {
+            for (PlayingCard *card  in otherCards) {
+                card.matched = YES;
+            }
+            self.matched = YES;
+        }else{
+            for (PlayingCard *card in otherCards) {
+                card.chosen = NO;
+            }
+            
+            
+        }
+    
+    
+    score = [PlayingCard scoreForRankMatchNum:rankMatch suitMatchNum:suitMatch];
+    
     return score;
+}
++ (int)scoreForRankMatchNum:(int)rankMatchNum suitMatchNum:(int)suitMatchNum{
+    int score = 0;
+    
+    score = rankMatchNum*4;
+    score += suitMatchNum*1;
+
+    return score;
+    
 }
 #pragma mark - tool
 //工具类用+方法

@@ -10,6 +10,7 @@
 
 @interface PlayingCard : Card
 @property (nonatomic,strong) NSString *suit;
+
 @property (nonatomic,assign) NSInteger rank;
 + (NSUInteger)maxRank;
 + (NSArray*)suits;
