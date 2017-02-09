@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2460BDED1E4B6983007FB78B /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2460BDEC1E4B6983007FB78B /* PlayingCard.m */; };
+		2460BDF01E4B6CC7007FB78B /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2460BDEF1E4B6CC7007FB78B /* PlayingCardDeck.m */; };
+		2460BDF31E4B7321007FB78B /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2460BDF21E4B7321007FB78B /* CardMatchingGame.m */; };
 		2464B7571E4A076D0077F8C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464B7561E4A076D0077F8C7 /* main.m */; };
 		2464B75A1E4A076D0077F8C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464B7591E4A076D0077F8C7 /* AppDelegate.m */; };
 		2464B75D1E4A076D0077F8C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464B75C1E4A076D0077F8C7 /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		2464B7651E4A076D0077F8C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2464B7631E4A076D0077F8C7 /* LaunchScreen.storyboard */; };
 		2464B7701E4A076D0077F8C7 /* StanfordiOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464B76F1E4A076D0077F8C7 /* StanfordiOS7Tests.m */; };
 		2464B77B1E4A076D0077F8C7 /* StanfordiOS7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464B77A1E4A076D0077F8C7 /* StanfordiOS7UITests.m */; };
+		2464B78A1E4A07860077F8C7 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464B7891E4A07860077F8C7 /* Card.m */; };
+		2464B78D1E4A08C40077F8C7 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464B78C1E4A08C40077F8C7 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2460BDEB1E4B6983007FB78B /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		2460BDEC1E4B6983007FB78B /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		2460BDEE1E4B6CC7007FB78B /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		2460BDEF1E4B6CC7007FB78B /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		2460BDF11E4B7321007FB78B /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		2460BDF21E4B7321007FB78B /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		2464B7521E4A076D0077F8C7 /* StanfordiOS7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordiOS7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2464B7561E4A076D0077F8C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2464B7581E4A076D0077F8C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		2464B7761E4A076D0077F8C7 /* StanfordiOS7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StanfordiOS7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2464B77A1E4A076D0077F8C7 /* StanfordiOS7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StanfordiOS7UITests.m; sourceTree = "<group>"; };
 		2464B77C1E4A076D0077F8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2464B7881E4A07860077F8C7 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		2464B7891E4A07860077F8C7 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		2464B78B1E4A08C40077F8C7 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		2464B78C1E4A08C40077F8C7 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,16 @@
 			children = (
 				2464B7581E4A076D0077F8C7 /* AppDelegate.h */,
 				2464B7591E4A076D0077F8C7 /* AppDelegate.m */,
+				2464B7881E4A07860077F8C7 /* Card.h */,
+				2464B7891E4A07860077F8C7 /* Card.m */,
+				2460BDEB1E4B6983007FB78B /* PlayingCard.h */,
+				2460BDEC1E4B6983007FB78B /* PlayingCard.m */,
+				2464B78B1E4A08C40077F8C7 /* Deck.h */,
+				2464B78C1E4A08C40077F8C7 /* Deck.m */,
+				2460BDEE1E4B6CC7007FB78B /* PlayingCardDeck.h */,
+				2460BDEF1E4B6CC7007FB78B /* PlayingCardDeck.m */,
+				2460BDF11E4B7321007FB78B /* CardMatchingGame.h */,
+				2460BDF21E4B7321007FB78B /* CardMatchingGame.m */,
 				2464B75B1E4A076D0077F8C7 /* ViewController.h */,
 				2464B75C1E4A076D0077F8C7 /* ViewController.m */,
 				2464B75E1E4A076D0077F8C7 /* Main.storyboard */,
@@ -273,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2460BDED1E4B6983007FB78B /* PlayingCard.m in Sources */,
+				2464B78D1E4A08C40077F8C7 /* Deck.m in Sources */,
 				2464B75D1E4A076D0077F8C7 /* ViewController.m in Sources */,
 				2464B75A1E4A076D0077F8C7 /* AppDelegate.m in Sources */,
+				2460BDF31E4B7321007FB78B /* CardMatchingGame.m in Sources */,
+				2460BDF01E4B6CC7007FB78B /* PlayingCardDeck.m in Sources */,
 				2464B7571E4A076D0077F8C7 /* main.m in Sources */,
+				2464B78A1E4A07860077F8C7 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +537,7 @@
 				2464B7811E4A076D0077F8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2464B7821E4A076D0077F8C7 /* Build configuration list for PBXNativeTarget "StanfordiOS7Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +546,7 @@
 				2464B7841E4A076D0077F8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2464B7851E4A076D0077F8C7 /* Build configuration list for PBXNativeTarget "StanfordiOS7UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +555,7 @@
 				2464B7871E4A076D0077F8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
