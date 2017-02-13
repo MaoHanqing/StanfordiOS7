@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2464B7511E4A076D0077F8C7"
-               BuildableName = "StanfordiOS7.app"
-               BlueprintName = "StanfordiOS7"
-               ReferencedContainer = "container:StanfordiOS7.xcodeproj">
+               BlueprintIdentifier = "245324EE1E51AEBC006E63F4"
+               BuildableName = "Matchismo.app"
+               BlueprintName = "Matchismo"
+               ReferencedContainer = "container:Matchismo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2464B76A1E4A076D0077F8C7"
-               BuildableName = "StanfordiOS7Tests.xctest"
-               BlueprintName = "StanfordiOS7Tests"
-               ReferencedContainer = "container:StanfordiOS7.xcodeproj">
+               BlueprintIdentifier = "245325071E51AEBC006E63F4"
+               BuildableName = "MatchismoTests.xctest"
+               BlueprintName = "MatchismoTests"
+               ReferencedContainer = "container:Matchismo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2464B7751E4A076D0077F8C7"
-               BuildableName = "StanfordiOS7UITests.xctest"
-               BlueprintName = "StanfordiOS7UITests"
-               ReferencedContainer = "container:StanfordiOS7.xcodeproj">
+               BlueprintIdentifier = "245325121E51AEBC006E63F4"
+               BuildableName = "MatchismoUITests.xctest"
+               BlueprintName = "MatchismoUITests"
+               ReferencedContainer = "container:Matchismo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2464B7511E4A076D0077F8C7"
-            BuildableName = "StanfordiOS7.app"
-            BlueprintName = "StanfordiOS7"
-            ReferencedContainer = "container:StanfordiOS7.xcodeproj">
+            BlueprintIdentifier = "245324EE1E51AEBC006E63F4"
+            BuildableName = "Matchismo.app"
+            BlueprintName = "Matchismo"
+            ReferencedContainer = "container:Matchismo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2464B7511E4A076D0077F8C7"
-            BuildableName = "StanfordiOS7.app"
-            BlueprintName = "StanfordiOS7"
-            ReferencedContainer = "container:StanfordiOS7.xcodeproj">
+            BlueprintIdentifier = "245324EE1E51AEBC006E63F4"
+            BuildableName = "Matchismo.app"
+            BlueprintName = "Matchismo"
+            ReferencedContainer = "container:Matchismo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2464B7511E4A076D0077F8C7"
-            BuildableName = "StanfordiOS7.app"
-            BlueprintName = "StanfordiOS7"
-            ReferencedContainer = "container:StanfordiOS7.xcodeproj">
+            BlueprintIdentifier = "245324EE1E51AEBC006E63F4"
+            BuildableName = "Matchismo.app"
+            BlueprintName = "Matchismo"
+            ReferencedContainer = "container:Matchismo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

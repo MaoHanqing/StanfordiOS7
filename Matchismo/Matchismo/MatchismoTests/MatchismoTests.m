@@ -1,18 +1,18 @@
 //
-//  StanfordiOS7Tests.m
-//  StanfordiOS7Tests
+//  MatchismoTests.m
+//  MatchismoTests
 //
-//  Created by 毛汉卿 on 2017/2/7.
+//  Created by 毛汉卿 on 2017/2/13.
 //  Copyright © 2017年 毛汉卿. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface StanfordiOS7Tests : XCTestCase
+@interface MatchismoTests : XCTestCase
 
 @end
 
-@implementation StanfordiOS7Tests
+@implementation MatchismoTests
 
 - (void)setUp {
     [super setUp];

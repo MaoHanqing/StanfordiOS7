@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>StanfordiOS7.xcscheme</key>
+		<key>Matchismo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2464B7511E4A076D0077F8C7</key>
+		<key>245324EE1E51AEBC006E63F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2464B76A1E4A076D0077F8C7</key>
+		<key>245325071E51AEBC006E63F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2464B7751E4A076D0077F8C7</key>
+		<key>245325121E51AEBC006E63F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
